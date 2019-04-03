@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "resizable-image-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/resizableImage/ResizableImageWebPart.js",
+          "manifest": "./src/webparts/resizableImage/ResizableImageWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ResizableImageWebPartStrings": "lib/webparts/resizableImage/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
